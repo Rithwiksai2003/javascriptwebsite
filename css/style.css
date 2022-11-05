@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.logo{
+        width: 25%;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top:0;
+        cursor: pointer;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border: 3% ;
+    border-color: solid whitesmoke ;
+    border-radius: 50%;
+}
+
+.navbar{
+    display: flex;
+     align-items:center ;
+     justify-content: center;
+     
+
+
+}
+
+.navlist{
+    width: 50%;
+    /* background-color: rgb(9, 9, 8); */
+    display: flex;
+    align-items: center;
+
+}
+.navlist li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+
+}
+.navlist li a:hover{
+    
+    color: gray;
+
+}
+.rightnav{
+    /* background-color:purple ; */
+    width:50%;
+    text-align: right;
+    padding: 23px;
+    
+ 
+}
+#search{
+    padding:5px;
+    font-size: 17px;
+    border:2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.1) url(../img/project\ pic\ 3.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    max-width: 50%;
+    margin: auto;
+          height: 40%;
+}
+.firstSection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf img{
+    width: 70%;
+    border:4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    
+}
+.text-big{
+    font-size: 25px;
+}
+.text-small{
+    font-size: 18px;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none ;
+    color: white;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.secRightHtml{
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.secRightCss{
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.secRightJs{
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
