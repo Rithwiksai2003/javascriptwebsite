@@ -2,6 +2,13 @@
     margin: 0;
     padding:0;
 }
+
+
+
+html{
+    scroll-behavior: smooth;
+    
+}
 .logo{
         width: 25%;   
         display: flex;
@@ -10,11 +17,13 @@
         position: sticky;
         top:0;
         cursor: pointer;
+       
+
 
 }
 .logo img{
-    width: 50px;
-    height: 50px;
+    width: 35%;
+    height:95%;
     border: 3% ;
     border-color: solid whitesmoke ;
     border-radius: 50%;
@@ -24,6 +33,11 @@
     display: flex;
      align-items:center ;
      justify-content: center;
+     position: sticky;
+     top: 0;
+     cursor: pointer;
+     height: 50px;
+    
      
 
 
@@ -44,6 +58,7 @@
 .navlist li a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 
 }
 .navlist li a:hover{
@@ -76,9 +91,9 @@
     align-items: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
-          height: 40%;
+          height: 60%;
 }
 .firstSection{
     height: 100vh;
@@ -87,14 +102,14 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 }
 .secondHalf img{
     width: 70%;
-    border:4px solid white;
+    border:4px solid black;
     border-radius: 150px;
     display: block;
-    margin: auto;
+    margin: 80%;
     
 }
 .text-big{
@@ -102,6 +117,7 @@
 }
 .text-small{
     font-size: 18px;
+    
 
 }
 .btn{
@@ -111,32 +127,139 @@
     border-radius: 8px;
     background: none ;
     color: white;
+    font-size: 15px;
+    
 }
 .btn-sm{
     padding: 6px 10px;
     vertical-align: middle;
 }
-.secRightHtml{
+.section{
     height:500px;
     display:flex;
     align-items: center;
     justify-content:  space-evenly;
     max-width: 80%;
     margin: auto;
+    padding: 10px;
 }
-.secRightCss{
-    height:500px;
-    display:flex;
-    align-items: center;
-    justify-content:  space-evenly;
-    max-width: 80%;
-    margin: auto;
+.section-Left{
+    flex-direction: row-reverse;
 }
-.secRightJs{
-    height:500px;
-    display:flex;
+
+
+.paras{
+    padding:0px 65px;
+    margin-top: -60px;
+}
+.contact{
+    background-color: #f6f5f4;
+    height: 633px;
+}
+.text-center{
+    text-align: center;
+    padding: 7px;
+
+}
+.form{
+    max-width: 1000px;
+    margin: 25px auto;
+}
+.form-input{
+    margin: 14px 0px;
+    width: 100%;
+    padding:5px 3px;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius:6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+    
+}
+.text-footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content:  space-evenly;
-    max-width: 80%;
-    margin: auto;
+    padding: 30px 0;
+
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor:pointer;
+    right:5%;
+    top:15px;
+
+}
+.line{
+    width:33px;
+    background-color: white;
+    height:4px;
+    margin:5px 3px;
+}
+.text-big1 {
+    text-decoration:dashed;
+    font-size: 25px;
+    border-radius: 15%;
+    border-color: lavender;
+    padding: 3px;
+    margin-bottom: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 1140px){
+  .nav-list {
+
+   flex-direction: column;
+}
+.navbar{
+   
+    flex-direction: column;
+    transition: all 0.7s  ease-out;
+    height: 447px;
+}
+.rightnav{
+    text-align: center;
+}
+#search{
+    width: 100%;
+    
+}
+.burger{
+    display: block;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+.section{
+    flex-direction: column-reverse;
+
+}
+.text-small{
+    text-align: center;
+}
+.text-big{
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}
+.paras{
+    padding: 0, 1px;
+
+}
+
+
+
+
+
 }

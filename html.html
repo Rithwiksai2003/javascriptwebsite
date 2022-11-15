@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 250px;
+            background-color: white;
+            overflow-y:auto;
+            scroll-behavior: smooth;
+            position:fixed;
+            height: 100vh;
+            
+        }
+
+        .sidebar a {
+            padding: 10px;
+            line-height: 2;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .sidebar a:hover{
+            background-color: grey;
+        }
+        .container{
+            
+        }
+        .content{
+            padding:30px;
+            margin-left: 250px;
+        }
+        .html .heading{
+            margin-bottom: 20px;
+        }
+        .html ul{
+            margin-left:20px;
+            margin-bottom: 20px;
+        }
+        .content{
+            scroll-behavior: smooth;
+        }
+        #learn{
+            background-color:lavender;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            
+            <div class="sidebar">
+
+                <a href="#Home">HTML Home</a><br>
+                <a href="#introduction">HTML introduction</a><br>
+                <a href="#">HTML Basic</a><br>
+                <a href="#">HTML Elements</a><br>
+                <a href="#">HTML attributes</a><br>
+                <a href="#">HTML Headings</a><br>
+                <a href="#">HTML Paragraphs</a><br>
+                <a href="#">HTML Styles</a><br>
+                <a href="#">HTML Formating</a><br>
+                <a href="#">HTML Quotations</a><br>
+                <a href="#">HTML Comments</a><br>
+                <a href="#">HTML Colors</a><br>
+                <a href="#">HTML Css</a><br>
+                <a href="#">HTML Links</a><br>
+                <a href="#images">HTML Images</a><br>
+                <a href="#">HTML Favicon</a><br>
+                <a href="#">HTML Tables</a><br>
+                <a href="#">HTML Lists</a><br>
+                <a href="#">HTML Block & Inline</a><br>
+                <a href="#">HTML Classes</a><br>
+                <a href="#">HTML Id</a><br>
+                <a href="#">HTML IFrames</a><br>
+                <a href="#">HTML javascript</a><br>
+            </div>
+                
+
+            <div id="learn">
+            <div class="content" id="introduction">
+            <div class="html">
+                <h1 class="heading"> What is HTML?</h1>
+                <p class="matter">
+                    <ul>
+                    <li>HTML stands for Hyper Text Markup Language</li>
+                    <li>HTML is the standard markup language for creating Web pages</li>
+                        <li>HTML describes the structure of a Web page</li>
+                            <li> HTML consists of a series of elements</li>
+                                <li>HTML elements tell the browser how to display the content</li>
+                                    <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                                </ul> </p>
+            </div>
+            <div class="html">
+                <h1 class="heading"> Example Explained</h1>
+                        
+                <p class="matter">
+                    <ul>
+                 <li>The &lt;!DOCTYPE html&g t; declaration defines that this document is an HTML5 document</li>
+                   <li>The &lt;html&gt; element is the root element of an HTML page</li>
+                    <li>The &lt;head&gt; element contains meta information about the HTML page</li>
+                        <li>The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+                         <li>The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                            <li>The &lt;h1&gt; element defines a large heading</li>
+                                <li>The &lt;p&gt; element defines a paragraph &lt;P1&gt;</li> </ul>   </p>
+                
+             </div>
+             <div class="html">
+            <h1 class="heading"> What is an HTML Element?</h1>
+            <p class="matter">
+                <ul style= " list-style:'';">
+               <li> An HTML element is defined by a start tag, some content, and an end tag:</li>
+        
+               <li> &lt;tagname&gt; Content goes here... &lt;/tagname&gt;</li>
+               <li> The HTML element is everything from the start tag to the end tag:</li>
+                
+               <li>&lt;h1&gt;My First Heading&lt;/h1&gt;</li>
+               <li>&lt;p&gt;My first paragraph. &lt;/p&gt;</li>
+            </ul>
+        
+            </p>
+        </div>
+            <div class="html">
+                <h1 class="heading"> HTML Links</h1>
+                <p class="matter">
+                    <ul style="list-style: none;">
+                   <li> HTML links are defined with the &lt;a&gt; tag:</li>
+        
+                   <li> Example</li>
+                    <li> &lt;a&gt;href="https://www.gogle.com">This is a link&lt;/a&gt;</li>
+                   
+                    </ul>
+            
+                </p>
+        
+          </div>
+          <div class="html" id="images">
+            <h1 class="heading"> HTML Images</h1>
+            <p class="matter">
+                <ul style="list-style: none;">
+               <li> HTML images are defined with the &lt;img&lt; tag.</li>
+        
+                <li>The source file (src), alternative text (alt), width, and height are provided as attributes:</li>
+                
+                    <li> Example</li>
+                        <li> &gt;img&lt; src="/img.jpg" alt="image" width="104" height="142"></li>
+
+               
+            </p>
+            
+             <br>
+             
+          
+                
+        </div>
+        <div class="html">
+            <h1 class="heading"> HTML Attributes</h1>
+            <p class="matter">
+                <ul style= " list-style:'';">
+               <li> All HTML elements can have attributes:</li>
+        
+               <li> Attributes provide additional information about elements.</li>
+        
+               <li>Attributes are always specified in the start tag</li>
+               
+                   <li> Attributes usually come in name/value pairs like: name="value"</li>
+                   <li> SRC ATRIBUTE</li><
+                       <li> &gt;img&lt; src="/img.jpg" alt="image" "></li>
+                       <li> href ATRIBUTE</li>
+                       <li> &gt;a&lt; href="/img.jpg" alt="image" "></li>
+            </ul>
+        
+            </p>
+        </div>
+        <div class="html">
+            <h1 class="heading"> Headings</h1>
+            <p class="matter">
+                <ul >
+               <li> HTML headings are defined with the &lt;h1&gt; to &lt;h1&gt; tags.
+
+            </li>
+        
+               <li> h1 defines the most important heading.</li>
+               <li> h1 defines the least important heading.</li>
+        
+              
+            </ul>
+        
+            </p>
+        </div>
+        <div class="html">
+            <h1 class="heading"> HTML Paragraphs</h1>
+            <p class="matter">
+                <ul >
+                    <li>  The HTML  &lt;p&gt; element defines a paragraph.</li>
+
+                        
+        
+               <li>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph..</li>
+               <li>  The HTML  &lt;pre&gt; element defines a paragraph.</li>
+               <li> The text inside a element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks</li>
+            </ul>
+        
+            </p>
+        </div>
+        <div class="html">
+            <h1 class="heading"> HTML Class</h1>
+            <p class="matter">
+                <ul >
+                    <li>  The HTML  &lt;p&gt; element defines a paragraph.</li>
+
+                      <li>The class attribute is often used to point to a class name in a style sheet. It can also be<br> used by a JavaScript to access and manipulate elements with the specific class name.
+
+                        In the following example we have three &lt;div&gt; elements with a class attribute with the value of "city".<br> All of the three &lt;div&gt; elements will be styled equally according to the .city style definition in the head section:</li>  
+        
+             
+            </ul>
+        
+            </p>
+        </div>
+            
+        </div>
+    </div>
+    
+    </section>
+</body>
+
+</html>

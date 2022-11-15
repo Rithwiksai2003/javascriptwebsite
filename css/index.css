@@ -15,6 +15,9 @@
 .down{
     margin-top: 25vh;
 }
+.down p{
+    font-size:8vw;
+}
 
 p{
     font-family: hello;
